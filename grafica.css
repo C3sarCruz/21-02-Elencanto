@@ -39,9 +39,8 @@ body {
 
 .tablaGastos {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    border: #434655 2px solid;
-    border-radius: 7px;
     background-color:whitesmoke;
+    padding: 20px;
 }
 
 .tablaGastos tbody tr>td {
@@ -157,41 +156,135 @@ body {
 
 
 #contenidoGP {
-    display: none;
-    font-size: 30px;
-    margin-bottom: 10px;
+        display: none;
+        text-decoration: none;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        z-index: 100;
+    }
 
-}
+    .contenidoGP-Dis {
+        width: 96%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        padding: 1pc;
+    }
 
 #contenidoAP {
-    display: none;
-    font-size: 30px;
-    margin-bottom: 10px;
-}
+        display: none;
+        text-decoration: none;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        z-index: 100;
+    }
+
+    .contenidoAP-Dis {
+        width: 96%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        padding: 1pc;
+    }
 
 #contenidoEE {
-    display: none;
-    font-size: 30px;
-    margin-bottom: 10px;
-}
+        display: none;
+        text-decoration: none;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        z-index: 100;
+    }
+
+    .contenidoEE-Dis {
+        width: 96%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        padding: 1pc;
+    }
 
 #contenidoM {
     display: none;
-    font-size: 30px;
-    margin-bottom: 10px;
+    text-decoration: none;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
 }
 
-#contenidoTD {
-    display: none;
-    font-size: 30px;
-    margin-bottom: 10px;
+.contenidoM-Dis {
+    width: 96%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    padding: 1pc;
 }
+
 
 #contenidoGV {
-    display: none;
-    font-size: 30px;
-    margin-bottom: 10px;
-}
+        display: none;
+        text-decoration: none;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        z-index: 100;
+    }
+
+    .contenidoGV-Dis {
+        width: 96%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        padding: 1pc;
+    }
 
 .g55{
     position: absolute;
@@ -407,4 +500,44 @@ button:hover .button-text {
     right: 0;
     margin: auto;
     z-index: -10;
+}
+.contenido-back {
+    background: rgba(0, 0, 0, 0.535);
+    display: flex;
+    position: fixed;
+    z-index: -100;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.cerrar a {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.25em 0.5em;
+    margin-top: 8vh;
+    text-decoration: none;
+    color: #FFF;
+    background: #b5b3b3;
+    transition: .4s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.cerrar a:hover {
+    color: #FFF;
+    text-decoration: none;
+    background:#999;
+}
+
+.tabla-gastos-3 tbody td{
+    width: 50%;
+    font-size: 4rem;
+    color: #fff;
+    font-weight: bolder;
 }
